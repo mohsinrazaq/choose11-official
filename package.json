@@ -10,11 +10,15 @@
         "css",
         "sass",
         "html",
-        "responsive"
+        "responsive",
+        "javascript",
+        "Nodejs",
+        "Gulp",
+        "Virtual Game"
     ],
-    "homepage": "www.choose11.com",
+    "homepage": "https://www.choose11.com",
     "bugs": {
-        "url": "www.mohsinrazzaq.cf",
+        "url": "https://www.mohsinrazzaq.cf",
         "email": "mohsinrazzaq25@gmail.com"
     },
     "license": "MIT",
