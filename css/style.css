@@ -184,6 +184,7 @@ nav {
 
 a:hover#menu-icon {
   background-color: #444;
+  color: #666;
   border-radius: 4px 4px 0 0;
 }
 
@@ -199,4 +200,8 @@ li {
 
 .current {
   color: white;
+}
+
+.current:hover {
+  color: #666;
 }
