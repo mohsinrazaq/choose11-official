@@ -21,13 +21,14 @@
     }
     
     .menu {
-        position: absolute;
-        top: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
         left: 0;
         background: rgb(107, 9, 9);
-        width: 240px;
+        width: 250px;
         height: 100%;
-        transform: translate3d(-240px, 0, 0);
+        transform: translate3d(-250px, 0, 0);
         transition: transform 0.35s;
     }
     
