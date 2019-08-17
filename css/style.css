@@ -138,31 +138,12 @@ p {
   position: absolute;
 }
 
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
 a {
-  color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-a:hover {
+a a:hover {
   color: #444;
 }
 
@@ -180,6 +161,7 @@ header {
 nav {
   float: right;
   padding: 20px;
+  margin-right: 40px;
 }
 
 a:hover#menu-icon {
@@ -192,7 +174,7 @@ ul {
   list-style: none;
 }
 
-li {
+ul li {
   display: inline-block;
   float: left;
   padding: 10px;
@@ -202,6 +184,6 @@ li {
   color: white;
 }
 
-.current:hover {
+.current .current:hover {
   color: #666;
 }

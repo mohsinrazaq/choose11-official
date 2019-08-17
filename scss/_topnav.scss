@@ -1,29 +1,9 @@
-    ol,
-    ul {
-        list-style: none;
-    }
-    
-    blockquote,
-    q {
-        quotes: none;
-    }
-    
-    blockquote:before,
-    blockquote:after,
-    q:before,
-    q:after {
-        content: '';
-        content: none;
-    }
-    
     a {
-        color: rgb(255, 255, 255);
         text-decoration: none;
         font-weight: bold;
-    }
-    
-    a:hover {
-        color: #444;
+        a:hover {
+            color: #444;
+        }
     }
     
     header {
@@ -40,6 +20,7 @@
     nav {
         float: right;
         padding: 20px;
+        margin-right: 40px;
     }
     
     a:hover#menu-icon {
@@ -50,18 +31,16 @@
     
     ul {
         list-style: none;
-    }
-    
-    li {
-        display: inline-block;
-        float: left;
-        padding: 10px
+        li {
+            display: inline-block;
+            float: left;
+            padding: 10px;
+        }
     }
     
     .current {
         color: rgb(255, 255, 255);
-    }
-    
-    .current:hover {
-        color: #666;
+        .current:hover {
+            color: #666;
+        }
     }
