@@ -121,9 +121,9 @@ p {
   font-size: 22px;
   font-weight: normal;
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   display: inline-block;
-  width: 500px;
+  width: 400px;
 }
 
 #info #info-content h1 strong {
