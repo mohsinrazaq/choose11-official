@@ -24,7 +24,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: rgb(151, 38, 38);
+        background: rgb(107, 9, 9);
         width: 240px;
         height: 100%;
         transform: translate3d(-240px, 0, 0);
@@ -40,7 +40,7 @@
         display: block;
         padding: 0;
         text-indent: -9999px;
-        background: rgb(151, 38, 38) url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
+        background: rgb(107, 9, 9) url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
     }
     
     .menu ul li>label {
@@ -54,6 +54,7 @@
         padding: 0 20px;
         line-height: 60px;
         text-decoration: none;
+        font-weight: bold;
         color: rgb(248, 241, 241);
     }
     
@@ -109,7 +110,7 @@
     
     #info #info-content h1 {
         color: #fff;
-        border-bottom: 6px solid #fff;
+        border-bottom: 6px solid rgb(206, 29, 29);
         text-align: center;
         background: rgba(0, 0, 0, 0.1);
         font-size: 22px;

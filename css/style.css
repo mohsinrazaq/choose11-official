@@ -28,7 +28,7 @@ label:focus {
   position: absolute;
   top: 0;
   left: 0;
-  background: #972626;
+  background: #6b0909;
   width: 240px;
   height: 100%;
   -webkit-transform: translate3d(-240px, 0, 0);
@@ -48,7 +48,7 @@ label:focus {
   display: block;
   padding: 0;
   text-indent: -9999px;
-  background: #972626 url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
+  background: #6b0909 url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
 }
 
 .menu ul li > label {
@@ -62,6 +62,7 @@ label:focus {
   padding: 0 20px;
   line-height: 60px;
   text-decoration: none;
+  font-weight: bold;
   color: #f8f1f1;
 }
 
@@ -118,7 +119,7 @@ p {
 
 #info #info-content h1 {
   color: #fff;
-  border-bottom: 6px solid #fff;
+  border-bottom: 6px solid #ce1d1d;
   text-align: center;
   background: rgba(0, 0, 0, 0.1);
   font-size: 22px;
