@@ -9,17 +9,6 @@ body {
   padding: 0;
 }
 
-#wrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-label {
-  cursor: pointer;
-}
-
 label:focus {
   outline: none;
 }
@@ -88,20 +77,14 @@ label:focus {
   transform: translate3d(0, 0, 0);
 }
 
-/* for show */
-html,
-body {
-  height: 100%;
-}
-
 p {
   margin-bottom: 15px;
 }
 
 #info {
   display: table;
-  background: rgba(0, 0, 0, 0.4);
-  height: 100%;
+  background-image: url(/img/slider-img-1.jpg);
+  height: 750px;
   width: 100%;
 }
 
@@ -132,10 +115,13 @@ p {
   font-size: 26px;
 }
 
-.web-logo {
-  margin-left: 43.5%;
-  margin-top: 15%;
-  position: absolute;
+.play {
+  width: 100%;
+  height: 700px;
+}
+
+.play h1 {
+  margin-top: 50px;
 }
 
 a {
