@@ -160,11 +160,16 @@ p {
   height: 600px;
 }
 
-.policy-heading p {
+.policy-heading .heading-para {
   width: 50%;
   margin-left: 25%;
   padding-top: 50px;
   font-size: 24px;
+}
+
+p {
+  width: 80%;
+  margin-left: 10%;
 }
 
 a {
