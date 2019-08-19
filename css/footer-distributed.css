@@ -36,13 +36,13 @@
 .footer-distributed .footer-right {
     float: right;
     margin-top: 6px;
-    max-width: 250px;
+    max-width: auto;
 }
 
 .footer-distributed .footer-right a {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 40px;
     background-color: #33383b;
     border-radius: 2px;
     font-size: 20px;
