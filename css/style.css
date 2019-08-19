@@ -38,7 +38,7 @@ label:focus {
   display: block;
   padding: 0;
   text-indent: -9999px;
-  background: #d3bfcd url(/img/menu-icon-2.svg) 50% 50%/25px 25px no-repeat;
+  background: white url(/img/menu-icon-2.svg) 50% 50%/25px 25px no-repeat;
 }
 
 .menu ul li > label {
