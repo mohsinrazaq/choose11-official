@@ -129,6 +129,13 @@ p {
   text-align: center;
 }
 
+.privacy-img img {
+  width: 100%;
+  height: auto;
+  padding-top: 0;
+  margin-top: -5px;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
