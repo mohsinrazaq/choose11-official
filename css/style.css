@@ -8,6 +8,11 @@ body {
   padding-top: 80px;
 }
 
+.img-fluid {
+  height: 400px !important;
+  margin-left: 200px;
+}
+
 /* reset */
 * {
   margin: 0;
