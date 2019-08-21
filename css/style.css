@@ -130,14 +130,14 @@ p {
   text-align: center;
 }
 
-.privacy-img {
+.privacy-img .terms {
   width: 100%;
   height: auto;
   margin-right: auto;
   margin-left: auto;
 }
 
-.privacy-img img {
+.privacy-img .terms img {
   background: o-repeat center center / cover;
   width: 100%;
   height: auto;
@@ -147,7 +147,7 @@ p {
   background-size: cover;
 }
 
-.privacy-img .centered {
+.privacy-img .terms .centered {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -155,10 +155,6 @@ p {
   transform: translate(-50%, -50%);
   color: white;
   font-weight: bold;
-}
-
-.privacy-heading {
-  padding-top: -300px;
 }
 
 .policy-heading {
