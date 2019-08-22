@@ -91,4 +91,50 @@
                 margin-left: 40%;
                 margin-top: 20px;
             }
+            p {
+                font-size: 28px;
+            }
+        }
+        
+        .pointing-system {
+            height: 400px;
+        }
+        
+        //pointings-ystem code started
+        .pointing-img {
+            width: 100%;
+            height: auto;
+            margin-right: 0;
+            margin-left: 0;
+            img {
+                background: center center / cover;
+                width: 100%;
+                height: auto;
+                position: relative;
+                background-size: cover;
+            }
+            .pointing-heading {
+                margin-top: 100px;
+                font-size: 60px;
+            }
+            .centered {
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-weight: bold;
+            }
+        }
+        
+        .pointing-heading {
+            width: 100%;
+            height: auto;
+            .heading-para {
+                width: 50%;
+                margin-left: 25%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                font-size: 24px;
+            }
         }
