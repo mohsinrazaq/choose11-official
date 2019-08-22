@@ -1,26 +1,27 @@
-        .play {
+        // .play {
+        //     width: 100%;
+        //     height: auto;
+        //     background-color: aliceblue;
+        //     h1 {
+        //         padding-top: 50px;
+        //         text-align: center;
+        //     }
+        // }
+        .privacy-img {
             width: 100%;
             height: auto;
-            background-color: aliceblue;
-            h1 {
-                padding-top: 50px;
-                text-align: center;
-            }
-        }
-        
-        .privacy-img .terms {
-            width: 100%;
-            height: auto;
-            margin-right: auto;
-            margin-left: auto;
+            margin-right: 0;
+            margin-left: 0;
             img {
-                background: o-repeat center center / cover;
+                background: center center / cover;
                 width: 100%;
                 height: auto;
-                padding-top: 0;
-                margin-top: -5px;
                 position: relative;
                 background-size: cover;
+            }
+            .privacy-heading {
+                margin-top: 100px;
+                font-size: 60px;
             }
             .centered {
                 position: absolute;
@@ -62,6 +63,7 @@
             }
         }
         
+        // how to play section 
         .howtoplay {
             .play-image {
                 height: 300px !important;
@@ -74,9 +76,11 @@
                 margin-bottom: 50px;
             }
             h5 {
-                margin-left: 20px;
+                margin-left: 50px;
             }
             p {
-                margin-left: 40px;
+                margin-left: 80px;
             }
         }
+        
+        // how to play section ended
