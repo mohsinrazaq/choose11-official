@@ -202,6 +202,15 @@ h3 {
   }
 }
 
+.terms {
+  height: auto;
+}
+
+.terms h3 {
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
