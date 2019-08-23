@@ -306,6 +306,58 @@ h3 {
   }
 }
 
+.pointing-system .image-info {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.pointing-system .image-info img {
+  margin-left: 20%;
+  height: 200px;
+  width: 200px;
+}
+
+.pointing-system .image-info p {
+  margin-left: 100px;
+}
+
+.pointing-system .image-info .left {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .image-info {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .image-info .left {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    height: auto;
+    width: 100%;
+  }
+  .image-info img {
+    height: 150px;
+    width: 150px;
+  }
+  .image-info p {
+    margin-left: 10px;
+  }
+}
+
 a {
   text-decoration: none;
   font-weight: bold;

@@ -1,177 +1,219 @@
-                        // .play {
-                        //     width: 100%;
-                        //     height: auto;
-                        //     background-color: aliceblue;
-                        //     h1 {
-                        //         padding-top: 50px;
-                        //         text-align: center;
-                        //     }
-                        // }
-                        .privacy-img {
-                            width: 100%;
-                            height: auto;
-                            margin-right: 0;
-                            margin-left: 0;
-                            img {
-                                background: center center / cover;
-                                width: 100%;
-                                height: auto;
-                                position: relative;
-                                background-size: cover;
-                            }
-                            .privacy-heading {
-                                margin-top: 100px;
-                                font-size: 60px;
-                            }
-                            .centered {
-                                position: absolute;
-                                top: 30%;
-                                left: 50%;
-                                transform: translate(-50%, -50%);
-                                color: white;
-                                font-weight: bold;
-                            }
-                        }
-                        
-                        .policy-heading {
-                            width: 100%;
-                            height: auto;
-                            .heading-para {
-                                width: 50%;
-                                margin-left: 25%;
-                                padding-top: 50px;
-                                padding-bottom: 50px;
-                                font-size: 24px;
-                            }
-                        }
-                        
-                        p {
-                            width: 80%;
-                            margin-left: 10%;
-                            padding-bottom: 30px;
-                        }
-                        
-                        h3 {
-                            margin-left: 10%;
-                            font-weight: 600;
-                        }
-                        
-                        @media (min-width:375px) {
-                            .privacy-heading {
-                                font-size: 28px;
-                                margin-top: -100px;
-                            }
-                        }
-                        
-                        // how to play section 
-                        .howtoplay {
-                            padding-top: 20px;
-                            background-color: blanchedalmond;
-                            .text-center {
-                                font-size: 24px;
-                                font-weight: bold;
-                            }
-                            p {
-                                font-size: 18px;
-                            }
-                            .play-image {
-                                height: 300px !important;
-                            }
-                        }
-                        
-                        @media (max-width:425px) {
-                            .play-image {
-                                margin-left: -30px;
-                                margin-bottom: 50px;
-                            }
-                            h5 {
-                                margin-left: 50px;
-                            }
-                            p {
-                                margin-left: 80px;
-                            }
-                        }
-                        
-                        // how to play section ended
-                        //terms and conditions section css
-                        .terms {
-                            height: auto;
-                            h3 {
-                                margin-left: 40%;
-                                margin-top: 20px;
-                            }
-                            p {
-                                font-size: 18px;
-                            }
-                        }
-                        
-                        .pointing-system {
-                            height: 400px;
-                        }
-                        
-                        //pointings-system code started
-                        .pointing-img {
-                            width: 100%;
-                            height: auto;
-                            margin-right: 0;
-                            margin-left: 0;
-                            img {
-                                background: center center / cover;
-                                width: 100%;
-                                height: auto;
-                                position: relative;
-                                background-size: cover;
-                            }
-                            .pointing-heading {
-                                margin-top: 100px;
-                                font-size: 60px;
-                            }
-                            .centered {
-                                position: absolute;
-                                top: 30%;
-                                left: 50%;
-                                transform: translate(-50%, -50%);
-                                color: white;
-                                font-weight: bold;
-                            }
-                        }
-                        
-                        .pointing-heading {
-                            width: 100%;
-                            height: auto;
-                            .heading-para {
-                                width: 50%;
-                                margin-left: 25%;
-                                padding-top: 50px;
-                                padding-bottom: 50px;
-                                font-size: 24px;
-                            }
-                        }
-                        
-                        @media (max-width:450px) {
-                            .terms {
-                                p {
-                                    font-size: 28px;
-                                }
-                            }
-                        }
-                        
-                        @media (max-width:450px) {
-                            .pointing-img {
-                                width: 100%;
-                                height: auto;
-                                margin-right: 0;
-                                margin-left: 0;
-                                img {
-                                    background: center center / cover;
-                                    width: 100%;
-                                    height: auto;
-                                    position: relative;
-                                    background-size: cover;
-                                }
-                                .pointing-heading {
-                                    margin-top: -100px;
-                                    font-size: 18px;
-                                }
-                            }
-                        }
+        // .play {
+        //     width: 100%;
+        //     height: auto;
+        //     background-color: aliceblue;
+        //     h1 {
+        //         padding-top: 50px;
+        //         text-align: center;
+        //     }
+        // }
+        .privacy-img {
+            width: 100%;
+            height: auto;
+            margin-right: 0;
+            margin-left: 0;
+            img {
+                background: center center / cover;
+                width: 100%;
+                height: auto;
+                position: relative;
+                background-size: cover;
+            }
+            .privacy-heading {
+                margin-top: 100px;
+                font-size: 60px;
+            }
+            .centered {
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-weight: bold;
+            }
+        }
+        
+        .policy-heading {
+            width: 100%;
+            height: auto;
+            .heading-para {
+                width: 50%;
+                margin-left: 25%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                font-size: 24px;
+            }
+        }
+        
+        p {
+            width: 80%;
+            margin-left: 10%;
+            padding-bottom: 30px;
+        }
+        
+        h3 {
+            margin-left: 10%;
+            font-weight: 600;
+        }
+        
+        @media (min-width:375px) {
+            .privacy-heading {
+                font-size: 28px;
+                margin-top: -100px;
+            }
+        }
+        
+        // how to play section 
+        .howtoplay {
+            padding-top: 20px;
+            background-color: blanchedalmond;
+            .text-center {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 18px;
+            }
+            .play-image {
+                height: 300px !important;
+            }
+        }
+        
+        @media (max-width:425px) {
+            .play-image {
+                margin-left: -30px;
+                margin-bottom: 50px;
+            }
+            h5 {
+                margin-left: 50px;
+            }
+            p {
+                margin-left: 80px;
+            }
+        }
+        
+        // how to play section ended
+        //terms and conditions section css
+        .terms {
+            height: auto;
+            h3 {
+                margin-left: 40%;
+                margin-top: 20px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+        
+        .pointing-system {
+            height: 400px;
+        }
+        
+        //pointings-system code started
+        .pointing-img {
+            width: 100%;
+            height: auto;
+            margin-right: 0;
+            margin-left: 0;
+            img {
+                background: center center / cover;
+                width: 100%;
+                height: auto;
+                position: relative;
+                background-size: cover;
+            }
+            .pointing-heading {
+                margin-top: 100px;
+                font-size: 60px;
+            }
+            .centered {
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-weight: bold;
+            }
+        }
+        
+        .pointing-heading {
+            width: 100%;
+            height: auto;
+            .heading-para {
+                width: 50%;
+                margin-left: 25%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                font-size: 24px;
+            }
+        }
+        
+        @media (max-width:450px) {
+            .terms {
+                p {
+                    font-size: 28px;
+                }
+            }
+        }
+        
+        @media (max-width:450px) {
+            .pointing-img {
+                width: 100%;
+                height: auto;
+                margin-right: 0;
+                margin-left: 0;
+                img {
+                    background: center center / cover;
+                    width: 100%;
+                    height: auto;
+                    position: relative;
+                    background-size: cover;
+                }
+                .pointing-heading {
+                    margin-top: -100px;
+                    font-size: 18px;
+                }
+            }
+        }
+        
+        .pointing-system {
+            .image-info {
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-content: flex-start;
+                img {
+                    margin-left: 20%;
+                    height: 200px;
+                    width: 200px;
+                }
+                p {
+                    margin-left: 100px;
+                }
+                .left {
+                    width: 100%;
+                }
+            }
+        }
+        
+        @media (max-width:450px) {
+            .image-info {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .left {
+                    align-self: flex-start;
+                    height: auto;
+                    width: 100%;
+                }
+                img {
+                    height: 150px;
+                    width: 150px;
+                }
+                p {
+                    margin-left: 10px;
+                }
+            }
+        }
