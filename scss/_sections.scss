@@ -185,12 +185,13 @@
                 .left {
                     width: 100%;
                     img {
-                        margin-left: 20%;
+                        margin-left: 10%;
                         height: 200px;
                         width: 200px;
                     }
                     p {
-                        margin-left: 30px;
+                        width: 100%;
+                        margin-left: -20px;
                     }
                 }
             }
