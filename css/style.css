@@ -247,6 +247,8 @@ h3 {
 .pointing-img img {
   background: center center / cover;
   width: 100%;
+  min-width: 120%;
+  max-width: 150%;
   height: auto;
   position: relative;
   background-size: cover;
