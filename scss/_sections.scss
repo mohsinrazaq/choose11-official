@@ -65,6 +65,15 @@
                         
                         // how to play section 
                         .howtoplay {
+                            padding-top: 20px;
+                            background-color: blanchedalmond;
+                            .text-center {
+                                font-size: 24px;
+                                font-weight: bold;
+                            }
+                            p {
+                                font-size: 18px;
+                            }
                             .play-image {
                                 height: 300px !important;
                             }

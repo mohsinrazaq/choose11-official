@@ -1,7 +1,11 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
 }
 
 .clear-fix {
@@ -183,6 +187,20 @@ h3 {
     font-size: 28px;
     margin-top: -100px;
   }
+}
+
+.howtoplay {
+  padding-top: 20px;
+  background-color: blanchedalmond;
+}
+
+.howtoplay .text-center {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.howtoplay p {
+  font-size: 18px;
 }
 
 .howtoplay .play-image {
