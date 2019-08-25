@@ -2,7 +2,7 @@
 details {
     width: 75%;
     min-height: 5px;
-    max-width: 700px;
+    max-width: 1100px;
     padding: 35px 60px 35px 35px;
     margin: 0 auto;
     position: relative;
@@ -10,11 +10,11 @@ details {
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 15px;
     box-sizing: border-box;
-    transition: all .3s;
+    transition: all 1.3s;
 }
 
 details+details {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 details[open] {
@@ -24,6 +24,7 @@ details[open] {
 }
 
 details p {
+    padding: 20px;
     color: #96999d;
     font-weight: 300;
 }
@@ -46,8 +47,10 @@ summary::-webkit-details-marker {
 }
 
 .control-icon {
+    margin-left: 200px;
+    justify-content: flex-end;
     fill: rebeccapurple;
-    transition: .3s ease;
+    transition: 1.5s ease;
     pointer-events: none;
 }
 
@@ -107,4 +110,4 @@ details[open] summary:hover::after {
     }
 }
 
-//accordian styles ended
+//accordian styles ended;
