@@ -370,10 +370,11 @@ h3 {
 .fantasy-cricket {
   padding: 50px;
   height: auto;
-  background-color: white;
+  background-color: #9c2d2d;
 }
 
 .fantasy-cricket h3 {
+  color: white;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-left: 40%;
@@ -505,7 +506,7 @@ details {
   margin: 0 auto;
   position: relative;
   font-size: 22px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -546,8 +547,8 @@ summary {
 
 summary:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 4px #f6f7f8, 0 0 0 5px rebeccapurple;
-  box-shadow: 0 0 0 4px #f6f7f8, 0 0 0 5px rebeccapurple;
+  -webkit-box-shadow: 0 0 0 4px #f6f7f8, 0 0 0 5px white;
+  box-shadow: 0 0 0 4px #f6f7f8, 0 0 0 5px white;
 }
 
 summary::-webkit-details-marker {
