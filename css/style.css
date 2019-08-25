@@ -361,6 +361,11 @@ h3 {
   }
 }
 
+.fantasy-cricket {
+  height: 800px;
+  background-color: white;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
