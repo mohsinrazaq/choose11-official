@@ -520,7 +520,7 @@ details + details {
 
 details[open] {
   min-height: 50px;
-  background-color: #f6f7f8;
+  background-color: #ffffff;
   -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
 }
@@ -638,18 +638,25 @@ details[open] summary:hover::after {
     -webkit-transition: all 1.3s;
     transition: all 1.3s;
   }
+  .acc-heading {
+    color: black !important;
+  }
   p {
     text-align: center;
     width: 100%;
     padding: 10px;
     margin-left: -20px;
-    color: #96999d;
+    color: #ffffff;
     font-weight: 300;
   }
   summary {
+    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .acc-heading {
+    color: white;
   }
   summary:focus {
     outline: none;
@@ -662,7 +669,7 @@ details[open] summary:hover::after {
   .fantasy-cricket {
     padding: 50px;
     height: auto;
-    background-color: white;
+    background-color: #9c2d2d;
   }
   .fantasy-cricket h3 {
     font-size: 18px;

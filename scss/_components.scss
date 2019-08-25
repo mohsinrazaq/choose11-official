@@ -19,7 +19,7 @@
             
             details[open] {
                 min-height: 50px;
-                background-color: #f6f7f8;
+                background-color: #ffffff;
                 box-shadow: 2px 2px 20px rgba(0, 0, 0, .2);
             }
             
@@ -124,16 +124,23 @@
                     box-sizing: border-box;
                     transition: all 1.3s;
                 }
+                .acc-heading {
+                    color: black !important;
+                }
                 p {
                     text-align: center;
                     width: 100%;
                     padding: 10px;
                     margin-left: -20px;
-                    color: #96999d;
+                    color: #ffffff;
                     font-weight: 300;
                 }
                 summary {
+                    color: white;
                     display: flex;
+                }
+                .acc-heading {
+                    color: white;
                 }
                 summary:focus {
                     outline: none;
@@ -145,7 +152,7 @@
                 .fantasy-cricket {
                     padding: 50px;
                     height: auto;
-                    background-color: white;
+                    background-color: rgb(156, 45, 45);
                     h3 {
                         font-size: 18px;
                         padding-top: 50px;
