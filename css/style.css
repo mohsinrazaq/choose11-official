@@ -381,6 +381,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.fantasy-cricket .acc-heading {
+  color: black;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
@@ -507,11 +511,15 @@ details {
   position: relative;
   font-size: 22px;
   border: 2px solid rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
+  border-radius: 25px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 1.3s;
   transition: all 1.3s;
+}
+
+.acc-heading {
+  border-radius: 5px;
 }
 
 details + details {
@@ -559,7 +567,7 @@ summary::-webkit-details-marker {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  fill: rebeccapurple;
+  fill: #020202;
   -webkit-transition: 1.5s ease;
   transition: 1.5s ease;
   pointer-events: none;
@@ -638,9 +646,6 @@ details[open] summary:hover::after {
     -webkit-transition: all 1.3s;
     transition: all 1.3s;
   }
-  .acc-heading {
-    color: black !important;
-  }
   p {
     text-align: center;
     width: 100%;
@@ -650,7 +655,7 @@ details[open] summary:hover::after {
     font-weight: 300;
   }
   summary {
-    color: white;
+    color: black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
