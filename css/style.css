@@ -260,9 +260,19 @@ h3 {
   background-size: cover;
 }
 
-.pointing-img .pointing-heading {
-  margin-top: 100px;
-  font-size: 60px;
+.pointing-img .pointing-image {
+  width: 60%;
+  padding-top: 50px;
+}
+
+.pointing-img .pointing-image img {
+  width: 220px;
+  height: 220px;
+}
+
+.pointing-img .pointing-image .pointing-heading {
+  font-size: 20px;
+  width: 40%;
 }
 
 .pointing-img .centered {
