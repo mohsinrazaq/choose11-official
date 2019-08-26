@@ -191,8 +191,9 @@ h3 {
 
 .howtoplay {
   padding-top: 30px;
+  color: white;
   height: auto;
-  background-color: #b39972;
+  background-color: #245297;
   overflow: hidden;
 }
 
@@ -299,6 +300,10 @@ h3 {
 }
 
 .pointing-heading .image-info {
+  width: 50%;
+}
+
+.pointing-heading .image-info .pointing-heading {
   width: 100%;
 }
 
