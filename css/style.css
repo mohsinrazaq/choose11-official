@@ -689,3 +689,7 @@ details[open] summary:hover::after {
     margin-left: 20%;
   }
 }
+
+.contact-us {
+  height: 500px;
+}
