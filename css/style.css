@@ -320,6 +320,11 @@ h3 {
   }
 }
 
+.pointing-system {
+  height: 450px;
+  max-height: auto;
+}
+
 .pointing-system .img-info {
   width: 80%;
   margin-left: 15%;
