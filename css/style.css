@@ -693,3 +693,8 @@ details[open] summary:hover::after {
     margin-left: 20%;
   }
 }
+
+.card-body span {
+  margin-left: 20%;
+  margin-right: 15%;
+}
