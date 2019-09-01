@@ -33,6 +33,14 @@
             }
         }
         
+        .left-align {
+            float: left;
+        }
+        
+        .right-align {
+            float: right;
+        }
+        
         .policy-heading {
             width: 100%;
             height: auto;
@@ -176,7 +184,7 @@
         .pointing-system {
             height: 450px;
             max-height: auto;
-            .img-info {
+            .left-align .img-info {
                 width: 80%;
                 margin-left: 15%;
                 height: auto;

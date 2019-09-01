@@ -158,6 +158,14 @@ p {
   font-weight: bold;
 }
 
+.left-align {
+  float: left;
+}
+
+.right-align {
+  float: right;
+}
+
 .policy-heading {
   width: 100%;
   height: auto;
@@ -325,7 +333,7 @@ h3 {
   max-height: auto;
 }
 
-.pointing-system .img-info {
+.pointing-system .left-align .img-info {
   width: 80%;
   margin-left: 15%;
   height: auto;
@@ -335,13 +343,13 @@ h3 {
   border: 0;
 }
 
-.pointing-system .img-info img {
+.pointing-system .left-align .img-info img {
   margin-left: 10%;
   height: 200px;
   width: 200px;
 }
 
-.pointing-system .img-info p {
+.pointing-system .left-align .img-info p {
   border: 0;
   width: 50%;
   margin-left: 10px;
